@@ -1,0 +1,15 @@
+model,stress_RMSE_Nm
+MACE-MP-0 S,2.07723
+MACE-MP-0 M,2.99955
+MACE-MP-0b3,4.84053
+MACE-MPA-0,1.91147
+CHGNet,2.15568
+SevenNet-0,1.47718
+SevenNet-MF-ompa,1.60949
+MatterSim-1M,1.43226
+MatterSim-5M,0.809076
+MACE-OMAT-0,1.61651
+FT round 0,0.171167
+FT round 1 (AL),0.116408
+"FT round 2 (AL), m1",0.101153
+"FT round 2 (AL), m2",0.152374

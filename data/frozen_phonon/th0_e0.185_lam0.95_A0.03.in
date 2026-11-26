@@ -1,0 +1,25 @@
+&control
+ calculation='scf', prefix='th0_e0.185_lam0.95_A0.03', pseudo_dir='/home/user/graphene_dft/dft/pseudo', outdir='/home/user/graphene/frozenwork/tmp_th0_e0.185_lam0.95_A0.03',
+ tstress=.true., tprnfor=.true., disk_io='none'
+/
+&system
+ ibrav=0, nat=6, ntyp=1, ecutwfc=50.0, ecutrho=400.0, occupations='smearing', smearing='mv', degauss=0.01
+/
+&electrons
+ conv_thr=3.00e-09, mixing_beta=0.4
+/
+ATOMIC_SPECIES
+C 12.011 C.UPF
+CELL_PARAMETERS angstrom
+ 4.3855667715 2.4514494679 0.0000000000
+ 0.0000000000 4.9028989359 0.0000000000
+ 0.0000000000 0.0000000000 12.0000000000
+ATOMIC_POSITIONS angstrom
+C 1.4468555905 2.4499253984 6.0000000000
+C 1.4468555905 0.8186738922 6.0000000000
+C 2.9087111810 4.8675085817 6.0000000000
+C 2.9087111810 3.3039896448 6.0000000000
+C 0.0300000000 4.8844417240 6.0000000000
+C 0.0300000000 3.2870565025 6.0000000000
+K_POINTS automatic
+12 12 1 0 0 0
